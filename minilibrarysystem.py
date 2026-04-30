@@ -53,7 +53,7 @@ def read_library():
     try:
         f = open("MLS.txt", "r")
 
-        print("\n===== LIBRARY RECORDS =====")
+        print("\n===== LIBRARY RECORDS =====\n")
 
         lines = f.readlines()
 
@@ -65,5 +65,5 @@ def read_library():
         f.close()
 
     except FileNotFoundError:
-        print("Library file not found!")
+        print("\nLibrary file not found!")
 
